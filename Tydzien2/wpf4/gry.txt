@@ -1,0 +1,9 @@
+Tytuł;Gatunek;RokWydania;Ocena;Opis;NazwaGrafiki
+The Witcher 3;RPG;2015;9.8;Otwarte środowisko, bogata fabuła i rozbudowany system wyborów moralnych. Jedna z najlepiej ocenianych gier w historii.;witcher3.jpg
+Minecraft;Sandbox;2011;9.5;Gra survivalowo-budowlana z nieskończonymi możliwościami. Najpopularniejsza gra wszech czasów pod względem sprzedaży.;minecraft.jpg
+Cyberpunk 2077;RPG;2020;8.5;Futurystyczne RPG osadzone w Night City. Po aktualizacjach technicznych uznawane za jedno z najlepszych RPG dekady.;cyberpunk.jpg
+Portal 2;Logiczna;2011;9.6;Genialna gra logiczna z mechaniką portali i wyjątkowym humorem. Tryb kooperacji dla dwóch graczy.;portal2.jpg
+Stardew Valley;Symulator;2016;9.4;Spokojna gra farmerska z bogatą społecznością NPC i licznymi sekretami do odkrycia.;stardew.jpg
+Hades;Roguelike;2020;9.5;Dynamiczny roguelike z doskonałym systemem walki i unikalną narracją opartą na próbach i błędach.;hades.jpg
+Red Dead Redemption 2;Akcja;2018;9.7;Epicka opowieść o bandycie na Dzikim Zachodzie. Niezrównany realizm świata i głęboka fabuła.;rdr2.jpg
+Hollow Knight;Metroidvania;2017;9.3;Mroczna przygoda w podziemnym królestwie owadów. Wymagająca gra z ogromnym światem do eksploracji.;hollowknight.jpg
