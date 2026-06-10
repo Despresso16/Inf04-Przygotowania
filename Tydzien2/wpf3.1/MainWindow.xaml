@@ -1,0 +1,31 @@
+﻿<Window x:Class="Inf04Tydzien2Zad12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Inf04Tydzien2Zad12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Label Content="Czionka:" FontSize="15" x:Name="czionkaLbl"/>
+            <ComboBox x:Name="czcionkaCmbBox" Margin="5 0 10 0" FontSize="15" Width="100" VerticalContentAlignment="Center" SelectionChanged="czcionkaCmbBox_SelectionChanged">
+                <ComboBoxItem Content="Arial" IsSelected="True"/>
+                <ComboBoxItem Content="Verdana"/>
+                <ComboBoxItem Content="Courier New"/>
+                <ComboBoxItem Content="Times New Roman"/>
+            </ComboBox>
+            <Label Content="Wielkość tesktu:" FontSize="15" x:Name="wielkoscOpisLbl"/>
+            <Slider x:Name="wielkoscTekstuSlider" Minimum="0" Maximum="100" Width="150" Value="15"  VerticalAlignment="Center" TickFrequency="1" IsSnapToTickEnabled="True" />
+            <Label Content="{Binding ElementName=wielkoscTekstuSlider, Path=Value, StringFormat={}{0:F0}}" FontSize="15" Margin="0 0 10 0" x:Name="wielkoscWartoscLbl"/>
+            <CheckBox x:Name="stylCk" Content="Tryb ciemny" FontSize="15" VerticalContentAlignment="Center" Margin="5 0" Checked="stylCk_Checked" Unchecked="stylCk_Unchecked"/>
+            <CheckBox x:Name="pogrubienieCK" Content="Pogrubienie" FontSize="15" VerticalContentAlignment="Center" Margin="5 0" Unchecked="pogrubienieCK_Unchecked" Checked="pogrubienieCK_Checked"/>
+            <CheckBox x:Name="kursywaCK" Content="Kursywa" FontSize="15" VerticalContentAlignment="Center" Margin="5 0" Unchecked="kursywaCK_Unchecked" Checked="kursywaCK_Checked"/>
+        </StackPanel>
+        <TextBlock Text="Tekst...fdfsdfdsfsdafdafsdfdsafdsafdsfdsa" FontSize="{Binding ElementName=wielkoscTekstuSlider, Path=Value}" Grid.Row="1" x:Name="tekstTxtBlock" FontFamily="Arial"/>
+    </Grid>
+</Window>
